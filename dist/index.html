@@ -17,11 +17,12 @@
             <div class="container">
                 <a class="navbar-brand" href="#">Charity Beacon</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-<!--                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+                    <!--<li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -29,29 +30,40 @@
                                 <li><hr class="dropdown-divider" /></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                        </li>
+                        </li>-->
                     </ul>
-                </div> -->
+                </div> 
             </div>
         </nav>
         <!-- Page content-->
         <div class="container">
+            <h4 class="how-tag positionless-tag">how?</h4>
+            <h4 class="why-tag positionless-tag">why?</h4>
             <div class="text-center mt-5">
                 <h1>Find the right charities for your brand!</h1>
+                <img class="index-image "src="assets/comment.png">
 <!--                 <p class="lead">A complete project boilerplate built with Bootstrap</p>
                 <p>Bootstrap v5.1.1</p> -->
                 <br>
                 <form action="#data">
                     <div class="form-group">
                     <!-- <br> -->
-                      <label for="cname"> Company Name</label>
-                      <input class="form-control" type="text" id="cname" name="cname"><br><br>
+                      <!-- <label for="cname"> Company Name</label> -->
+                      <div class="input-group mb-3">
+                        <input class="form-control" type="text" id="cname" name="cname" placeholder="Company name">
+                        <button type="submit" class="btn btn-primary submit-btn" onclick="document.getElementById('data').style.display = 'block' ;">Let's go</button>
+                      </div>
+                      OR<br><br>
+                      <div class="input-group mb-3">
+                        <input class="form-control" type="text" id="cname" name="cname" placeholder="Ad account Id">
+                        <button type="submit" class="btn btn-primary submit-btn" onclick="document.getElementById('data').style.display = 'block' ;">Let's go</button>
+                      </div>
                     </div>
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                       <label for="adaccount">Ad Account ID</label>
                       <input class="form-control" type="text" id="adaccount" name="adaccount"><br><br>
-                    </div>
-                      <button type="submit" class="btn btn-primary" onclick="document.getElementById('data').style.display = 'block' ;">Submit</button>
+                    </div> -->
+                      
                 </form>
             </div>
         </div>

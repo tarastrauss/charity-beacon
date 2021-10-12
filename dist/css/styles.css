@@ -11,6 +11,32 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+
+.index-image{
+  width: 450px;
+  height: 450px;
+}
+
+.input-group{
+  width: 50% !important;
+  margin: auto;
+}
+
+.positionless-tag{
+  position: absolute;
+  color: #0a58ca;
+}
+
+.why-tag{
+  left: 726px;
+  top: 234px;
+}
+
+.how-tag{
+  left: 671px;
+  top: 270px; 
+}
+
  #input-company {
 
  }
