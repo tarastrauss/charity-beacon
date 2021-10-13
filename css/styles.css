@@ -161,7 +161,7 @@ outline: none !important;
   box-shadow: 3px 3px 3px grey;
 }
 .grey{
-  background-color: #EEEEEE;
+  background-color: #f7f7f7;
 
 }
 .proj{
@@ -281,9 +281,6 @@ outline: none !important;
 }
 
 
- #input-company {
-
- }
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -2833,6 +2830,10 @@ textarea.form-control-lg {
   position: absolute;
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
+}
+.btn-primary {
+  background-color: #00a9c7 !important;
+  border-color: #00a9c7 !important;
 }
 .btn-check[disabled] + .btn, .btn-check:disabled + .btn {
   pointer-events: none;
