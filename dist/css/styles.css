@@ -14,6 +14,16 @@
  #input-company {
 
  }
+
+ .card{
+   margin-left: 30px !important;
+   margin-bottom: 100px !important;
+ }
+
+ .logo-img{
+   height:337px;
+ }
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
