@@ -36,10 +36,10 @@
                 <label for="cname"> Company Name</label>
                 <input class="form-control" type="text" id="cname" name="cname"><br><br>
               </div>
-              <div class="form-group">
+<!--               <div class="form-group">
                 <label for="adaccount">Ad Account ID</label>
                 <input class="form-control" type="text" id="adaccount" name="adaccount"><br><br>
-              </div>
+              </div> -->
               <a class="btn-primary page-scroll btn" href="#company-data">Submit</a>
             </form>
           </div>
@@ -50,11 +50,12 @@
     <div id="company-data" class="section">
       <div class="container-fluid">
         <br>
-            <h3 class="text-center mt-5"> Your Audience </h3>
-            <h1 class="text-center section-title">  </h1><br>
-            <p class="text-center"> UFC is one of the hottest growing brands on the planet. It just went through an IPO and has its HQ in Vegas but it was only ranked #3 out of 6 sports categories when compared to the Las Vegas Market, with NFL and NHL being top 2 respectively, so we decided to dive into UFC as an opportunity to drive growth. </p>
-        <br>
-        <br>
+            <h3 class="text-center mt-4"> Your Audience </h3>
+            <h1 class="text-center section-title">  </h1>
+            <p class="text-center"> KFC is one of the hottest growing brands on the planet with a diverse audience. The largest demographic in the audience is men ages 25-34, with parents of children and teenagers making up a huge share. </p>
+        <!-- <br> -->
+        <img src="assets/age_gender.png" id="age-gender">
+        <!-- <br> -->
         <div class="text-center">
           <a class="btn-primary page-scroll btn" href="#recommendations">Find Out Which Charities Are Best For Your Brand</a>
         </div>
@@ -64,12 +65,50 @@
     <div id="recommendations" class="section grey">
       <div class="container-fluid grey">
         <br>
-          <div class="text-center mt-5">
+          <div class="text-center mt-4">
             <h2>Based on your audience, we recommend these Charities</h2>
-            <br>
+            <!-- <br> -->
             <h1 class="text-center section-title">  </h1><br>
-            <br>
+            <!-- <br> -->
           </div>
+          <div class="charity-cards">
+            <div class=" charity-pic">
+              <img src="assets/world_hunger_relief_2.png" class="card-img-top" alt="Logo 1">
+              <div class="charity-text">
+                <p class="card-text">World Hunger Relief</p>
+                <a href="http://www.worldhungerrelief.org/give-1#donate" class="btn btn-primary">Contact</a>
+              </div>
+            </div>
+            <div class="charity-pic">
+                <img src="assets/unicef_2.png" class="card-img-top" alt="Logo 2">
+              <div class="charity-text">
+                <p class="card-text">UNICEF</p>
+                <a href="https://www.unicef.org/about-unicef/contact-us" class="btn btn-primary">Contact</a>
+              </div>
+            </div>
+            <div class="charity-pic">
+                <img src="assets/special_olympics_2.png" class="card-img-top" alt="Logo 3">
+              <div class="charity-text">
+                <p class="card-text">Special Olympics</p>
+                <a href="https://www.specialolympics.org/about/contact?locale=en" class="btn btn-primary">Contact</a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <a class="btn-primary page-scroll btn" href="#more-info">Learn About These Audiences</a>
+          </div>
+      </div>
+    </div>
+
+    <div id="more-info" class="section">
+      <div class="text-center">
+      <br>
+      <div class="text-center mt-4">
+        <h2>Your Top Audience Overlap </h2>
+        <h1 class="text-center section-title">  </h1>
+      <p> Here you can see the breakdown of the top demographic and interest overlap between your audience and the audiences of the top matching charities.
+      </div>
+      <img src="assets/data.png" id="data" class="card-img-top">
       </div>
     </div>
 

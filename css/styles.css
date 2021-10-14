@@ -70,7 +70,7 @@ outline: none !important;
   height: 62px;
 }
 
-.button-margin{
+.button-margin {
   display: inline-block;
   margin-right: 10px;
   padding: 0 8px 0 8px;
@@ -80,30 +80,72 @@ outline: none !important;
 }
 
 
+ .charity-pic {
+   /*margin-left: 30px !important;*/
+   /*margin-bottom: 100px !important;*/
+   margin: 0 9% 5% 9%;
+   background-color: #fff0 !important;
+   border: 0px !important;
+   /*height: 80%;*/
+   display: inline;
+ }
+ .card-img-top {
+  padding-bottom: 5% !important;
+ }
 
-#about-me, #projects, #contact-info{
-  position: relative;
-  color: #2E2E2E;
-  margin-top: -70px;
-  margin-bottom: 134px;
-  padding-top: 60px;
+ .charity-cards {
+   /*height: 50%;*/
+   display: flex;
+/*   display: inline;
+   height: 80%;*/
+   /*display: inline;*/
+   /*margin-bottom: 2%;*/
+   border: 0px !important;
+   /*margin: 0 9% 10% 9%;*/
+   /*background-color: #fff0 !important;*/
+ }
+
+.card-group {
+  height: 200px !important;
+}
+.card-text {
+  padding-top: 5% !important;
+  width: 100% !important;
+  text-align: center !important;
+  margin: 0 auto 4% auto;
 }
 
-#contact-info, #about-me{
-  height: 100vh; !important
+#recommendations {
+  padding-bottom: 2%;
+  height: 100%;
 }
 
-#contact-info {
-  margin-top: -130px;
+#more-info {
+  /*margin-top: 2%;*/
+  /*clear: both;*/
+  z-index: 1;
+  background-color: #ffffff;
 }
 
-#home{
+.charity-text {
+  text-align: center;
+  width: 100%;
+}
+#home {
   height: 95vh;
   width: 100%;
   display: block;
   padding-bottom: -62px;
 }
 
+#data {
+  width: 70%;
+}
+#age-gender {
+  width: 50%;
+  /*text-align: center !important;*/
+  margin: 3% 26% 5% 26%;
+}
 
 .section {
   -webkit-transition: all .8s ease-in-out;
@@ -164,10 +206,7 @@ outline: none !important;
   background-color: #f7f7f7;
 
 }
-.proj{
-  width: 175px;
-  background-color: white;
-}
+
 
 #contact{
   width: 235px;
