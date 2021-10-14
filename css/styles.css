@@ -29,6 +29,7 @@ body {
 }
 .navbar{
   height: 62px;
+  border-radius: 0;
 }
 
 #navbar-text{
